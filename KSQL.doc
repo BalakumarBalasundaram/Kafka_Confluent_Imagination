@@ -1,0 +1,3 @@
+Deploying
+To deploy your UD(A)Fs you need to create a jar containing all of the classes required by the UD(A)Fs. If you depend on third-party libraries then this should be an uber-jar containing those libraries. Once the jar is created you need to deploy it to each KSQL server instance. The jar should be copied to the ext/ directory that is part of the KSQL distribution. The ext/ directory can be configured via the ksql.extension.dir.
+The jars in the ext/ directory are only scanned at start-up, so you will need to restart your KSQL server instances to pick up new UD(A)Fs.
