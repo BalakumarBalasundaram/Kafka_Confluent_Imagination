@@ -1,0 +1,27 @@
+Kafka Stream Projects
+•	Blog on Kafka stream
+	https://github.com/balamaci/blog-kafka-streams
+	Contains Custom Consumer Rebalancer Listener
+	Custom Offset Management
+•	Kafka Streams Rest
+	https://github.com/dnvriend/kafka-streams-test
+	The project person-mapper contains twoapplications. Application does a very simple map on the incoming PersonCreated events and saves the result to the MappedPersonCreated topic.
+•	Links
+o	(0'59 hr) Building Streaming And Fast Data Applications With Spark, Mesos, Akka, Cassandra And Kafka - Sean Glover
+o	(0'04 hr) Kafka Streams Overview - Confluent.io
+o	(0'39 hr) ETL Is Dead, Long Live Streams: real-time streams w/ Apache Kafka - Neha Narkhede
+o	(0'45 hr) Applications in the Emerging World of Stream Processing • Neha Narkhede
+o	(0'29 hr) Apache Kafka and the Next 700 Stream Processing Systems - Jay Kreps
+o	(1'04 hr) I ♥ Logs: Apache Kafka and Real-Time Data Integration - Jay Kreps
+o	(1'01 hr) Deep dive into Apache Kafka
+o	(0'46 hr) Distributed stream processing with Apache Kafka - Jay Kreps
+o	(1'30 hr) Developing Real-Time Data Pipelines with Apache Kafka - Joe Stein
+o	(0'55 hr) Microservices for a Streaming World | Kafka integration
+o	(0'58 hr) Streaming data integration with apache kafka
+o	(0'37 hr) Introducing Kafka Streams, the new stream processing library - Michael Noll
+o	(0'44 hr) Apache Kafka, Stream Processing, and Microservices - Jay Kreps
+o	(0'29 hr) Building Realtime Data Pipelines with Kafka Connect and Spark Streaming - Guozhang Wang
+o	(0'41 hr) Introducing Kafka Streams the New Stream Processing Library of Apache Kafka - Guozhang Wang
+o	(0'37 hr) Introducing Kafka Streams, the new stream processing library - Michael Noll
+o	(0'35 hr) Building a Real-time Streaming Platform Using Kafka Streams - Jay Kreps
+o	(0'56 hr) Streaming operational data with Kafka – Couchbase
