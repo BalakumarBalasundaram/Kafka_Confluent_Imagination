@@ -1,2 +1,5 @@
+Confluent Kafka examples
+https://github.com/confluentinc/examples
+
 Running a Multi-Broker Apache Kafka 0.8 Cluster on a Single Node
 Using Vagrant to get up and running with Apache Kafka
