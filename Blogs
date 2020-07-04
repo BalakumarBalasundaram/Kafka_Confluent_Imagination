@@ -3,3 +3,60 @@ https://github.com/confluentinc/examples
 
 Running a Multi-Broker Apache Kafka 0.8 Cluster on a Single Node
 Using Vagrant to get up and running with Apache Kafka
+
+before:
+debian@debian10:~$ cat /etc/apt/sources.list
+# 
+deb http://deb.debian.org/debian/ buster main
+deb-src http://deb.debian.org/debian/ buster main
+
+deb http://security.debian.org/debian-security buster/updates main contrib
+deb-src http://security.debian.org/debian-security buster/updates main contrib
+
+# buster-updates, previously known as 'volatile'
+deb http://deb.debian.org/debian/ buster-updates main contrib
+deb-src http://deb.debian.org/debian/ buster-updates main contrib
+
+
+debian@debian10:~$ sudo add-apt-repository "deb [arch=amd64] https://packages.confluent.io/deb/5.5 stable main"
+
+after:
+debian@debian10:~$ cat /etc/apt/sources.list
+# 
+
+deb http://deb.debian.org/debian/ buster main
+deb-src http://deb.debian.org/debian/ buster main
+
+deb http://security.debian.org/debian-security buster/updates main contrib
+deb-src http://security.debian.org/debian-security buster/updates main contrib
+
+# buster-updates, previously known as 'volatile'
+deb http://deb.debian.org/debian/ buster-updates main contrib
+deb [arch=amd64] https://packages.confluent.io/deb/5.5 stable main
+# deb-src [arch=amd64] https://packages.confluent.io/deb/5.5 stable main
+deb-src http://deb.debian.org/debian/ buster-updates main contrib
+
+installation:
+apt-get install confluent-kafka-2.12
+
+Confluent installation details
+root@debian10:/var# cd ..
+root@debian10:/# find / -name "*confluent*"
+/var/lib/dpkg/info/confluent-kafka-2.12.postinst
+/var/lib/dpkg/info/confluent-kafka-2.12.conffiles
+/var/lib/dpkg/info/confluent-kafka-2.12.list
+/var/lib/dpkg/info/confluent-kafka-2.12.postrm
+/var/lib/dpkg/info/confluent-kafka-2.12.md5sums
+/var/lib/apt/lists/packages.confluent.io_deb_5.5_dists_stable_InRelease
+/var/lib/apt/lists/packages.confluent.io_deb_5.5_dists_stable_main_binary-amd64_Packages
+/var/lib/systemd/deb-systemd-helper-enabled/confluent-kafka.service.dsh-also
+/var/lib/systemd/deb-systemd-helper-enabled/confluent-kafka-connect.service.dsh-also
+/var/lib/systemd/deb-systemd-helper-enabled/confluent-zookeeper.service.dsh-also
+/var/cache/apt/archives/confluent-kafka-2.12_5.5.1-1_all.deb
+/var/log/confluent
+/usr/lib/systemd/system/confluent-kafka.service
+/usr/lib/systemd/system/confluent-zookeeper.service
+/usr/lib/systemd/system/confluent-kafka-connect.service
+/usr/share/doc/confluent-kafka-2.12
+
+
