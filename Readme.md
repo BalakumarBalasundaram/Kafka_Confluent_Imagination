@@ -25,3 +25,7 @@ https://github.com/sanjeev0915/Product-Location-Service/blob/2648ec3501185845504
 
 Run through rest api
 https://github.com/confluentinc/demo-scene/blob/071b75f8b2b1f1830aceda3a18fd5fe850aa9e6f/oracle-and-kafka/setup.sh
+
+
+kafka connect env settings
+https://github.com/theparadoxer02/kafka-cluster-setup/blob/4f110bd11bf25885e0c35603a3312ea4d4124a1a/temp/start.sh
