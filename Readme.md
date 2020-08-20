@@ -12,3 +12,7 @@ https://github.com/OracleLinuxWorld/vagrantKafka/tree/971774db246e3b91857e0ab95e
 
 
 
+Data : 08-20-2020
+Details:
+Kubernetes setup
+https://github.com/wwbgo/k8s/tree/686c6efdd8a4f9b8531c2fa416e44c7ef4b38c73
