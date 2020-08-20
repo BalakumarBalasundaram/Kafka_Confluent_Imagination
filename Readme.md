@@ -15,4 +15,10 @@ https://github.com/OracleLinuxWorld/vagrantKafka/tree/971774db246e3b91857e0ab95e
 # Details: Kubernetes setup aug 20 2020
 https://github.com/wwbgo/k8s/tree/686c6efdd8a4f9b8531c2fa416e44c7ef4b38c73
 
+
+Kafka connect setup in kubernetes
 https://github.com/marodeur100/talend_kub_airflow/blob/485aca26b116de86b7a0b80329a9be50882f45d0/stream-example/stream.yaml
+https://github.com/Kathiresan1201/confluent-rancher/blob/6474a6fe89ae46aa8c9d342dbc59c89bfb129737/charts/yamls/connect.yaml
+
+Oracle db connection setting properties
+https://github.com/sanjeev0915/Product-Location-Service/blob/2648ec3501185845504a8273615be91aca543e98/Properties/kafka_commands.txt
