@@ -22,3 +22,6 @@ https://github.com/Kathiresan1201/confluent-rancher/blob/6474a6fe89ae46aa8c9d342
 
 Oracle db connection setting properties
 https://github.com/sanjeev0915/Product-Location-Service/blob/2648ec3501185845504a8273615be91aca543e98/Properties/kafka_commands.txt
+
+Run through rest api
+https://github.com/confluentinc/demo-scene/blob/071b75f8b2b1f1830aceda3a18fd5fe850aa9e6f/oracle-and-kafka/setup.sh
